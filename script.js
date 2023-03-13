@@ -13,7 +13,7 @@
 	const getHost = () => {
 		// Uncomment this if you want to hit the local endpoint
 		// return 'http://127.0.0.1:8000'
-
+		// Uncomment this if you want to hit the cloud endpoint
 		return 'https://gentle-fortress-89872.herokuapp.com'		
 	}
 
