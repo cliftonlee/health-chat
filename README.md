@@ -7,7 +7,7 @@ The API is hosted at https://gentle-fortress-89872.herokuapp.com.
 
 ## Developer Guide
 ### Develop
-To run the app locally on port 127.0.0.1:8000, use the command:
+To run the app locally on port 127.0.0.1:8000 and enter:
 
 ```
 uvicorn main:app --reload
