@@ -8,7 +8,7 @@ import sys
 path_to_dataset = sys.argv[1]
 path_to_new_index = sys.argv[2] # should end in .json
 
-key = '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'
+key = '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'
 os.environ['OPENAI_API_KEY'] = key
 
 # Loading from a directory

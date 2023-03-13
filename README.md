@@ -22,8 +22,16 @@ To create a new dataset, add a new folder in the dataset/ directory and fill it 
 python3 make_gpt_index.py <PATH_TO_DATASET> <PATH_TO_NEW_INDEX>
 ```
 
+
 ### Deploy
-To deploy to heroku:
+
+To push changes to GitHub:
+```
+git push
+
+```
+
+To deploy current `main` branch to heroku:
 
 ```
 git push heroku main
