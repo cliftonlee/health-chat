@@ -8,8 +8,7 @@ import sys
 path_to_dataset = sys.argv[1]
 path_to_new_index = sys.argv[2] # should end in .json
 
-key = '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'
-os.environ['OPENAI_API_KEY'] = key
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # Loading from a directory
 documents = SimpleDirectoryReader(path_to_dataset).load_data()
